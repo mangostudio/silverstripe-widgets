@@ -50,7 +50,7 @@ Widget Form to manage the widgets. An example of this is below
 		
 	    public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$fields->addFieldToTab("Root.Content.Widgets", new WidgetAreaEditor("Sidebar"));
+		$fields->addFieldToTab("Root.Widgets", new WidgetAreaEditor("Sidebar"));
 		return $fields;
 	    }
 	....
